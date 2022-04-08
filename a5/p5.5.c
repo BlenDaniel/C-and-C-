@@ -31,13 +31,10 @@ double computeTheVector(double *i_vector, double *j_vector, int size){
 
 
 int main(){
-
     //Defining my variables
     int num = 0;
     //printf("Enter the size of your scalars: ");
     scanf("%d", &num);
-    
-
     double * d_num1;
     d_num1 = (double *) malloc(sizeof(double) * num);
     double * d_num2;
@@ -97,8 +94,6 @@ int main(){
     printf("Position of smallest = %d\n", min_index_j);
     printf("The largest = %f\n", max_j);
     printf("Position of largest = %d\n", max_index_j);
-
-
 
     return 0;
 }

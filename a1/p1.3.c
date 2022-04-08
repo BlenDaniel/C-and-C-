@@ -16,9 +16,9 @@ int main() {
     float b = 13.5;
     result = a / b;
     /*
-        %f is used to print a float number and not an integer and since division by a float
-        denominator will result in the actual result in being a float then, the
-        result is a float and not an int
+        %f is used to print a float number and not an integer and since division is 
+        by a float denominator will result in the actual result in being a float then, 
+        the result is a float and not an int
     */
     printf("The result is %f\n", result);
     return 0;

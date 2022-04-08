@@ -96,7 +96,7 @@ void changeFloat(float *size, float newValue)
 float geometric_mean(float arr[], int count)
 {
     //The sum and the avarage are initiated here
-    float prod, avg;
+    float prod;
     for (int x = 0; x < count; x++)
     {
         prod = prod * arr[x];

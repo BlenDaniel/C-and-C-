@@ -1,3 +1,10 @@
+/*
+CH-230-A
+a4 p5.[c]
+Blen Assefa
+bassefa@jacobs-university.de
+*/
+
 #include <stdio.h>
 
 float sum(float numbers[], int size);

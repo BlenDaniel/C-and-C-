@@ -1,6 +1,0 @@
-GCC=gcc
-WALL=-Wall
-OBJ = linked_list.c use_linked_list.c
-
-all:  linked_list
-      

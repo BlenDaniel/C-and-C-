@@ -19,7 +19,7 @@ void print_array(int *arr, int n){
 }
 
 /* For sorting the array in an ascending order */
-int ascending(const void *a, const void * b) {
+int ascending(const void * a, const void * b) {
    return (*(int*)a - *(int*)b);
 }
 /* For sorting the array in an decending order */
@@ -30,7 +30,9 @@ int decending(const void * a, const void * b) {
 int main(){
     int n, i, *ptr;
     char val; 
+
     scanf("%d", &n);
+
     ptr = (int*) malloc(n * sizeof(int)); 
 
     /* if memory cannot be allocated */

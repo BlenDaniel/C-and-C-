@@ -60,7 +60,7 @@ void delete_node(Dlist *my_list, Dlist *ref) {
     if (ref -> next != NULL) {
         ref -> next -> prev = ref -> prev; 
     }else {
-        ref -> prev -> next
+        ref -> prev = ref -> next;
     }
     /* Change prev only if node to be deleted  
        is NOT the first node */

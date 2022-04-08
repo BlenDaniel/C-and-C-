@@ -42,7 +42,10 @@ int primenum(int num, int i){
         if(num == 1){
             return 0;
         }
-        /*Since i is a the integer value when number is divided by two, check if the number is also divided by the divident without any remainder*/
+        /*
+        Since i is a the integer value when number is divided by two, check if 
+        the number is also divided by the divident without any remainder
+        */
         if (num % i == 0){        
             return 0;
         }

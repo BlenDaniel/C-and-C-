@@ -104,7 +104,7 @@ char* readinput(){
 int main(){
    /* Getting input string */
    char* str = readinput(); 
-   int command; 
+   int command = 0; 
    /* Running while loop until number 4 is entered */
    while (command != 4)
    {

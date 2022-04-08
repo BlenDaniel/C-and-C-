@@ -27,7 +27,7 @@ char* itobin(int n, char *binstr){
     return binstr;
 }
 
-char* set3bits (int pos1, int pos2, int pos3, char* binstr) {
+unsigned char* set3bits (int pos1, int pos2, int pos3, unsigned char binstr) {
 
 
     /* Getting the binary position number */
@@ -40,7 +40,7 @@ char* set3bits (int pos1, int pos2, int pos3, char* binstr) {
     binstr |= pos2;
     binstr |= pos3;
 
-    return binstr;
+    return &binstr;
 }
 
 int main() {
@@ -61,7 +61,7 @@ int main() {
     printf ("The binary representation is: %s\n", itobin(value, str));
 
     /* After setting the bits we print the result */ 
-    printf("After setting the bits: %s\n", set3bits(first, second, third, value));
+    printf("After setting the bits: %c\n", set3bits(first, second, third, value));
 
     return 0;
 }

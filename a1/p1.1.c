@@ -12,7 +12,7 @@ int main() {
     /* The result of our calculation */
     double result; 
     /* 
-        The problem was the fact result was being assigned to an integer instead of a double
+        The problem was the fact that the result was being assigned to an integer instead of a double
         I just changed the denominator to a float number because C work like that.
         Even if the numerator is an integer, as long as the denominator is a double the result will
         be a float.

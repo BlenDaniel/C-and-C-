@@ -80,8 +80,6 @@ int main(){
 
 	// Function to display resultant matrix after multiplication.
 	printMatrix(mult, rowFirst, columnSecond);
-
-
 	return 0;
 }
 

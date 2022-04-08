@@ -1,3 +1,10 @@
+/*
+CH-230-A
+a4 p5.[c]
+Blen Assefa
+bassefa@jacobs-university.de
+*/
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>
@@ -12,7 +19,6 @@ int main(){
 
     printf("sum of doubles=%lf", d2 + d1);
     printf("difference of doubles=%lf", d1 - d2);
-
     printf("square=%lf", d1 * d1);
 
     int i1;
@@ -37,8 +43,6 @@ int main(){
 
     printf("sum of chars=%d", sumC);
     printf("product of chars=%d", proC);
-
-
 
     return 0;
 }
